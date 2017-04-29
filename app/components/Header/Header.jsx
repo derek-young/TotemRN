@@ -3,6 +3,7 @@ import {
   Text,
   View
 } from 'react-native';
+
 import localStyles from './headerStyles';
 
 const Header = () => {
