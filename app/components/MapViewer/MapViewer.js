@@ -3,13 +3,13 @@ import {
   Text,
   View
 } from 'react-native';
-import MapView, { PROVIDER_GOOGLE } from 'react-native-maps';
+import MapView from 'react-native-maps';
 import mapStyles from './mapStyles';
 
 const MapViewer = () => (
   <View style ={mapStyles.container}>
     <MapView
-      provider={PROVIDER_GOOGLE}
+      provider={MapView.PROVIDER_GOOGLE}
       style={mapStyles.map}
       initialRegion={{
         latitude: 37.76757,
