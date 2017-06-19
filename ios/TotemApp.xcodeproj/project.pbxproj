@@ -71,6 +71,7 @@
 		B882DBC21EB83E3000E88AEE /* AIRMapUrlTileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B882DB9C1EB83E3000E88AEE /* AIRMapUrlTileManager.m */; };
 		B882DBC31EB83E3000E88AEE /* SMCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = B882DB9F1EB83E3000E88AEE /* SMCalloutView.m */; };
 		B882DBC41EB83E3000E88AEE /* RCTConvert+AirMap.m in Sources */ = {isa = PBXBuildFile; fileRef = B882DBA11EB83E3000E88AEE /* RCTConvert+AirMap.m */; };
+		B88C225F1EEC9C34008B17A6 /* AIRMapOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = B88C225E1EEC9C34008B17A6 /* AIRMapOverlay.m */; };
 		EFD10FACADBBDA1B276889EA /* libPods-TotemApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D873A92F3BE54D21AE17B42 /* libPods-TotemApp.a */; };
 /* End PBXBuildFile section */
 
@@ -365,6 +366,8 @@
 		B882DB9F1EB83E3000E88AEE /* SMCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCalloutView.m; sourceTree = "<group>"; };
 		B882DBA01EB83E3000E88AEE /* RCTConvert+AirMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+AirMap.h"; sourceTree = "<group>"; };
 		B882DBA11EB83E3000E88AEE /* RCTConvert+AirMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+AirMap.m"; sourceTree = "<group>"; };
+		B88C225D1EEC9C34008B17A6 /* AIRMapOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRMapOverlay.h; sourceTree = "<group>"; };
+		B88C225E1EEC9C34008B17A6 /* AIRMapOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRMapOverlay.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -653,6 +656,8 @@
 		B882DB7D1EB83E3000E88AEE /* AirMaps */ = {
 			isa = PBXGroup;
 			children = (
+				B88C225D1EEC9C34008B17A6 /* AIRMapOverlay.h */,
+				B88C225E1EEC9C34008B17A6 /* AIRMapOverlay.m */,
 				B882DB7E1EB83E3000E88AEE /* AIRMap.h */,
 				B882DB7F1EB83E3000E88AEE /* AIRMap.m */,
 				B882DB801EB83E3000E88AEE /* AIRMapCallout.h */,
@@ -1216,6 +1221,7 @@
 				B882DBAD1EB83E3000E88AEE /* AIRGoogleMapPolygonManager.m in Sources */,
 				B882DBB01EB83E3000E88AEE /* AIRGoogleMapUrlTile.m in Sources */,
 				B882DBBE1EB83E3000E88AEE /* AIRMapPolygonManager.m in Sources */,
+				B88C225F1EEC9C34008B17A6 /* AIRMapOverlay.m in Sources */,
 				B882DBBA1EB83E3000E88AEE /* AIRMapManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
