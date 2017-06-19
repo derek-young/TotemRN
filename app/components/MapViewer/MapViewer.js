@@ -8,7 +8,6 @@ import mapStyles from './mapStyles';
 
 const MapViewer = () => (
   <View style ={mapStyles.container}>
-    {console.log(Overlay)}
     <MapView
       provider={MapView.PROVIDER_GOOGLE}
       style={mapStyles.map}
